@@ -1,0 +1,103 @@
+.bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #20783C;
+  background: url("../assets/green-bg.png") center;
+  background-size: cover;
+}
+
+.bio-explanation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bio-title {
+  color: #20783C;
+  margin: 0%;
+  padding: 2%;
+  padding-left: 6%;
+}
+
+.bio-focus {
+  padding-left: 6%;
+  font-size: 1.4em;
+}
+
+.bio-header {
+  width: 60%;
+  text-align: left;
+}
+
+.bio-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  padding: 4%;
+  margin: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  -webkit-box-shadow: 2px 2px 12px #cac9c9;
+          box-shadow: 2px 2px 12px #cac9c9;
+  line-height: 1.7em;
+}
+
+.bio-intros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url("../assets/meeting.jpg") center;
+  background-size: cover;
+}
+
+.founded {
+  color: white;
+}
+
+.open {
+  width: 50%;
+}
+
+.headshot {
+  padding: 1%;
+  margin: 2%;
+  width: 20%;
+  background-color: white;
+}
+
+.bio-box {
+  background-color: white;
+  margin: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 40%;
+}
+
+.bio-p {
+  line-height: 1.9em;
+}
+
+.bio-btn {
+  width: 25%;
+}
+
+.mission-top {
+  width: 30%;
+  background-color: white;
+  padding: 2%;
+  margin: 5%;
+  -webkit-box-shadow: 2px 2px 12px #383838;
+          box-shadow: 2px 2px 12px #383838;
+  line-height: 1.7em;
+}
+/*# sourceMappingURL=bio.css.map */

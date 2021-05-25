@@ -1,0 +1,53 @@
+.foot-bar {
+    // border-top: 60px solid #20783C;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .foot-logo-div {
+        padding-left: 5%;
+        width: 40%;
+    }
+
+    .foot-left-logo {
+        width: 30%;
+    }
+    
+    .foot-logo{
+        border: none;
+        width: 50%;
+        padding: 4%;
+    }
+
+.foot-location {
+    margin-top: 0%;
+    padding-left: 12%;
+}
+
+    .foot-links {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        padding-right: 5%;
+        width: 100%;
+        justify-content: flex-end;
+        vertical-align: center;
+    }
+    
+    .foot-link {
+        font-size: 1.3vw;
+        padding: 1.5%;
+        padding-bottom: 1%;
+        padding-top: 2.5%;
+        font-weight: 700;
+        text-decoration: none;
+        color: #20783C;
+        border-top: .4em solid transparent;
+        transition: 1s;
+    }
+    
+    .foot-link:hover {
+        border-top: .4em solid #1b8f3f;
+        color: #1b8f3f;
+    }

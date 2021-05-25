@@ -1,0 +1,71 @@
+.banner-training {
+  background-color: #20783C;
+  background-image: url("../assets/train.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner-h1-training {
+  text-align: center;
+  padding: 2%;
+  width: 25%;
+  color: white;
+  font-size: 1.8em;
+  line-height: 2em;
+  border-right: .2em solid white;
+}
+
+.banner-p-training {
+  font-size: 1.2em;
+  padding: 2%;
+  width: 60%;
+  color: white;
+  line-height: 2em;
+}
+
+.three-choice-training {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.choice-div-training {
+  padding: 3%;
+  margin: 3%;
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 12px #cac9c9;
+          box-shadow: 2px 2px 12px #cac9c9;
+}
+
+.choice-training {
+  width: 100%;
+}
+
+.choice-p-training {
+  line-height: 1.6em;
+}
+
+.choice-btn-training {
+  font-size: 1.05em;
+  width: 100%;
+  padding: 4%;
+  padding-left: 7%;
+  padding-right: 7%;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.choice-btn-training:hover {
+  background-color: #1b8f3f;
+}
+/*# sourceMappingURL=training.css.map */

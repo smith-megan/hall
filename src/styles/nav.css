@@ -1,0 +1,58 @@
+.nav-bar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-shadow: 2px 2px 12px #cac9c9;
+          box-shadow: 2px 2px 12px #cac9c9;
+}
+
+.left-logo {
+  width: 30%;
+  padding-left: 5%;
+}
+
+.logo {
+  border: none;
+  width: 100%;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+  padding-right: 5%;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  vertical-align: center;
+}
+
+.nav-link {
+  font-size: 1.3vw;
+  padding: 1.5%;
+  padding-bottom: 1%;
+  padding-top: 2.5%;
+  font-weight: 700;
+  text-decoration: none;
+  color: #20783C;
+  border-top: .4em solid transparent;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.nav-link:hover {
+  border-top: .4em solid #1b8f3f;
+  color: #1b8f3f;
+}
+/*# sourceMappingURL=nav.css.map */
